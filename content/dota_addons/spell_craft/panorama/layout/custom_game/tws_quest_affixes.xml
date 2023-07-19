@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/custom_game/tws_quest_affixes.css"/>
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/scripts/custom_game/tws_quest_affixes.js"/>
+		<include src="s2r://panorama/scripts/custom_game/util.js" />
+	</scripts>
+	<snippets>
+		<snippet hittest="false" name="QuestLine">
+			<Panel hittest="false">
+				<Panel  hittest="false" direction="horizontal" class="Progress">
+					<Panel  hittest="false" class="Progress_Left" style="margin-bottom: 0;"/>
+					<Panel  hittest="false" class="Progress_Right" style="margin-bottom: 0;"/>
+				</Panel>
+				<Panel  hittest="false" class="SliderLable">
+					<Label hittest="false" class="SliderInfo" text=""/>
+				</Panel>
+			</Panel>
+		</snippet>
+        <snippet hittest="false" name="AchievementLine">
+			<Panel hittest="false">
+				<Panel  hittest="false" direction="horizontal" class="Progress">
+					<Panel  hittest="false" class="Progress_Left" style="margin-bottom: 0;"/>
+					<Panel  hittest="false" class="Progress_Right" style="margin-bottom: 0;"/>
+				</Panel>
+				<Panel hittest="false" class="AchievementQuestLable">
+					<Label  hittest="false" class="SliderInfo" text="#tws_quest_achievement_front"/>  <!--特殊奖励：-->
+					<DOTAItemImage  itemname="" style="height:24px;width:32px; margin-top:27px;"  onmouseover="ShowItemTooltip()"
+					   	  onmouseout="HideItemTooltip()"/> <!--图标：-->
+					<Label hittest="false" class="SliderInfo" text=""/>  <!--本轮没有任何英雄阵亡：-->
+				</Panel>
+			</Panel>
+		</snippet>
+        <snippet name="AffixesLine">
+			 <Panel hittest="false" class="AffixesLine">
+		     </Panel>
+		</snippet>
+
+	</snippets>
+	<Panel hittest="false">
+		<Panel hittest="false" id="QuestMain">
+			<Panel hittest="false" id="QuestPanel"> </Panel>
+		</Panel>
+	</Panel>
+</root>

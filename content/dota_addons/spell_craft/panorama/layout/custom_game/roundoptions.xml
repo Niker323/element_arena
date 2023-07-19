@@ -1,0 +1,37 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/roundoptions.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/roundoptions.js" />
+	</scripts>
+    
+	<Panel hittest="false" class="RoundOptionsPanel">
+		<Panel hittest="false" id="RoundOptions">
+			<Image hittest="false" id="BG_Image" src="file://{images}/custom_game/all/fon.png"/>
+			<Label hittest="false" id="question" text="#votetext"/>
+			<Image id="hero1_yes" src="file://{images}/custom_game/all/yes.png" style="height:42px;width:68px; margin-top:47px; margin-left:17px;"/>
+			<Image id="hero2_yes" src="file://{images}/custom_game/all/yes.png" style="height:42px;width:68px; margin-top:47px; margin-left:107px;"/>
+			<Image id="hero3_yes" src="file://{images}/custom_game/all/yes.png" style="height:42px;width:68px; margin-top:47px; margin-left:197px;"/>
+			<Image id="hero4_yes" src="file://{images}/custom_game/all/yes.png" style="height:42px;width:68px; margin-top:47px; margin-left:287px;"/>
+			<Image id="hero5_yes" src="file://{images}/custom_game/all/yes.png" style="height:42px;width:68px; margin-top:47px; margin-left:377px;"/>
+			<Image id="hero1_no" src="file://{images}/custom_game/all/no.png" style="height:42px;width:68px; margin-top:47px; margin-left:17px;"/>
+			<Image id="hero2_no" src="file://{images}/custom_game/all/no.png" style="height:42px;width:68px; margin-top:47px; margin-left:107px;"/>
+			<Image id="hero3_no" src="file://{images}/custom_game/all/no.png" style="height:42px;width:68px; margin-top:47px; margin-left:197px;"/>
+			<Image id="hero4_no" src="file://{images}/custom_game/all/no.png" style="height:42px;width:68px; margin-top:47px; margin-left:287px;"/>
+			<Image id="hero5_no" src="file://{images}/custom_game/all/no.png" style="height:42px;width:68px; margin-top:47px; margin-left:377px;"/>
+			<DOTAHeroImage id="hero1" heroname="" style="height:36px;width:62px; margin-top:50px; margin-left:20px;"/>
+			<DOTAHeroImage id="hero2" heroname="" style="height:36px;width:62px; margin-top:50px; margin-left:110px;"/>
+			<DOTAHeroImage id="hero3" heroname="" style="height:36px;width:62px; margin-top:50px; margin-left:200px;"/>
+			<DOTAHeroImage id="hero4" heroname="" style="height:36px;width:62px; margin-top:50px; margin-left:290px;"/>
+			<DOTAHeroImage id="hero5" heroname="" style="height:36px;width:62px; margin-top:50px; margin-left:380px;"/>
+			<Label hittest="false" id="confirmation" text="#voteyestext"/>
+			<Button id="Vote_Yes" onactivate='Yes()'>
+				<Image id="yes_button" src="file://{images}/custom_game/all/button.png"/>
+			</Button>
+            <ToggleButton id="Auto_Vote" text="Auto Vote" onactivate="Toggle()" />
+            <Label hittest="false" id="readytext" text="#ready"/>
+		</Panel>
+	</Panel>
+</root>

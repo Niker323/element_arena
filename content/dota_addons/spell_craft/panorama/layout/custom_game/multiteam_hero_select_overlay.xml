@@ -1,0 +1,56 @@
+<root>
+    <styles>
+      <include src="file://{resources}/styles/dotastyles.css" />
+      <include src="file://{resources}/styles/custom_game/multiteam_hero_select_overlay.css" />
+      <include src="file://{resources}/styles/custom_game/hero_select.css" />
+      <!-- <include src="file://{resources}/styles/hero_grid_new.vcss" /> -->
+		<!-- <include src="s2r://panorama/styles/hero_grid_new.vcss_c" /> -->
+    </styles>
+
+    <scripts>
+      <include src="file://{resources}/scripts/custom_game/multiteam_hero_select_overlay.js" />
+    </scripts>
+
+  <Panel class="HeroSelectOverlayRoot">
+    <Panel id="PhaseInstructions">
+      <Label id="BanPhaseInstructions" text="#DOTA_LoadingBanPhase"/>
+      <Label id="PickPhaseInstructions" text="#DOTA_LoadingPickPhase"/>
+    </Panel>
+    <Panel class="HeroSelectTeamRowsContainer">
+  		<Panel id="HeroSelectTeamsContainer" />
+      <Panel id="HeroSelectTeamsContainer2" />
+    </Panel>
+    <!-- <Panel id="PatreonHeroes">
+			<Panel class="HeroCard" onmouseover="DOTAHeroGridCardMouseOver()" onmouseout="DOTAHeroGridCardMouseOut()" onactivate="DOTAHeroGridCardActivated()" hittestchildren="false">
+				
+				<Panel class="HeroCardContents">
+					<DOTAHeroImage id="HeroImage" heroimagestyle="portrait" scaling="stretch-to-cover-preserve-aspect" />
+					
+					<Panel id="SuggestedOverlay" class="HeroCardImageOverlay" />
+					<Panel id="SuggestedBanOverlay" class="HeroCardImageOverlay" />
+					<Panel id="AllHeroChallengeOverlay" class="HeroCardImageOverlay" />
+					<Panel id="DailyHeroChallengeIcon" />
+					<Panel id="BottomRightIcons">
+						<Panel id="GuildContractIcon" />
+						<Panel id="CavernIcon" />
+					</Panel>
+					<Panel id="RecommendHeroIcon" />
+					<Panel id="AvoidHeroIcon" />
+					<Label id="NewHeroOverlay" text="#DOTA_New" />
+					<Label id="PlaytestHeroOverlay" text="#DOTA_Playtest" />
+					<Panel id="HeroBadgeStatus">
+						<Label id="HeroBadgeLevel" text="{d:hero_badge_level}" />
+						<Panel id="HeroBadgeIcon" class="PlusHeroBadgeIconTiny" />
+					</Panel>
+				</Panel>
+
+				<Panel class="HeroCardOverlays">
+					<Panel id="BannedOverlay" />
+					<Panel id="DragOverlay" />
+					<Panel id="AddHeroOverlay" />
+					<Panel id="DragDeleteOverlay" />
+				</Panel>
+			</Panel>
+    </Panel> -->
+  </Panel>
+</root>

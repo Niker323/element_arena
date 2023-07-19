@@ -1,0 +1,23 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/endswaves.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/endswaves.js" />
+	</scripts>
+    
+	<Panel hittest="false" class="endswavesPanel">
+		<Panel hittest="false" id="endswaves">
+			<Image hittest="false" id="BG_Image" src="file://{images}/custom_game/all/endswavesfon.png"/>
+			<Label hittest="false" id="question" text="#endswaves"/>
+			<Button id="silka" onactivate="DOTADisplayURL('https://discord.gg/XAbznwc');">
+				<Label id="silkatext" text="discord.gg/XAbznwc" />
+			</Button>
+			<Button id="Vote_Yes" onactivate='Ok()'>
+				<Image id="yes_button" src="file://{images}/custom_game/all/button.png"/>
+			</Button>
+			<Label hittest="false" id="confirmation" text="#endswavesok"/>
+		</Panel>
+	</Panel>
+</root>

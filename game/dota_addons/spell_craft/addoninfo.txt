@@ -1,0 +1,18 @@
+"AddonInfo"
+{
+	"addontitle"					"Element Arena"
+	"addon_game_name"				"Element Arena"
+    
+    "maps"							"normal hard"
+	"IsPlayable" 		"1"
+	"PenaltiesEnabled"	"0"
+	"CheckAFKPlayers"	"0"
+	"normal"
+	{
+		"MaxPlayers"		"5"
+	}
+	"hard"
+	{
+		"MaxPlayers"		"5"
+	}
+}

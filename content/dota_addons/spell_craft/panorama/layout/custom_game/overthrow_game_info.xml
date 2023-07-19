@@ -1,0 +1,285 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/overthrow_game_info.css" />
+	</styles>
+    
+	<Panel class="OverthrowGameInfo">
+		<Panel id="Title">
+			<Label id="TitleName" text="#addonname" />
+		</Panel>
+		<Label id="ObjectiveHeader" class="Header" html="true" text="#overthrow_game_info_header_objective" />
+		<Label id="BriefDescription" text="#overthrow_brief_description" />
+        <Panel hittest="false" class="OverthrowGameInfo_Item">
+			<DOTAItemImage  itemname="item_fire" style="height:55px;width:75px; margin-top:0px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_earth" style="height:55px;width:75px; margin-top:0px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_light" style="height:55px;width:75px; margin-top:0px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_light_fire_earth" style="height:55px;width:75px; margin-top:0px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:3px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:3px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:3px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:67px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_light" style="height:55px;width:75px; margin-top:90px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_life" style="height:55px;width:75px; margin-top:90px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_earth" style="height:55px;width:75px; margin-top:90px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_light_life_earth" style="height:55px;width:75px; margin-top:90px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:93px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:93px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:93px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:157px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_air" style="height:55px;width:75px; margin-top:180px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_earth" style="height:55px;width:75px; margin-top:180px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_shadow" style="height:55px;width:75px; margin-top:180px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_air_earth_shadow" style="height:55px;width:75px; margin-top:180px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:183px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:183px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:183px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:247px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_air" style="height:55px;width:75px; margin-top:270px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_life" style="height:55px;width:75px; margin-top:270px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_void" style="height:55px;width:75px; margin-top:270px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_air_life_void" style="height:55px;width:75px; margin-top:270px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:273px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:273px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:273px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:337px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_fire" style="height:55px;width:75px; margin-top:360px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_air" style="height:55px;width:75px; margin-top:360px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_life" style="height:55px;width:75px; margin-top:360px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_air_fire_life" style="height:55px;width:75px; margin-top:360px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:363px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:363px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:363px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:427px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_energy" style="height:55px;width:75px; margin-top:450px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_fire" style="height:55px;width:75px; margin-top:450px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_void" style="height:55px;width:75px; margin-top:450px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_energy_fire_void" style="height:55px;width:75px; margin-top:450px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:453px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:453px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:453px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:517px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_energy" style="height:55px;width:75px; margin-top:540px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_shadow" style="height:55px;width:75px; margin-top:540px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_water" style="height:55px;width:75px; margin-top:540px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_energy_shadow_water" style="height:55px;width:75px; margin-top:540px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:543px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:543px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:543px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:607px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_water" style="height:55px;width:75px; margin-top:630px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_earth" style="height:55px;width:75px; margin-top:630px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_energy" style="height:55px;width:75px; margin-top:630px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_energy_earth_water" style="height:55px;width:75px; margin-top:630px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:633px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:633px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:633px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:697px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_fire" style="height:55px;width:75px; margin-top:720px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_earth" style="height:55px;width:75px; margin-top:720px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_water" style="height:55px;width:75px; margin-top:720px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_fire_earth_water" style="height:55px;width:75px; margin-top:720px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:723px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:723px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:723px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:787px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_ice" style="height:55px;width:75px; margin-top:810px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_shadow" style="height:55px;width:75px; margin-top:810px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_air" style="height:55px;width:75px; margin-top:810px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_ice_shadow_air" style="height:55px;width:75px; margin-top:810px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:813px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:813px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:813px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:877px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_energy" style="height:55px;width:75px; margin-top:900px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_void" style="height:55px;width:75px; margin-top:900px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_ice" style="height:55px;width:75px; margin-top:900px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_energy_void_ice" style="height:55px;width:75px; margin-top:900px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:903px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:903px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:903px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:967px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_shadow" style="height:55px;width:75px; margin-top:990px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_light" style="height:55px;width:75px; margin-top:990px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_ice" style="height:55px;width:75px; margin-top:990px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_shadow_light_ice" style="height:55px;width:75px; margin-top:990px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:993px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:993px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:993px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:1057px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_water" style="height:55px;width:75px; margin-top:1080px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_life" style="height:55px;width:75px; margin-top:1080px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_shadow" style="height:55px;width:75px; margin-top:1080px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_water_life_shadow" style="height:55px;width:75px; margin-top:1080px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1083px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1083px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:1083px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:1147px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_light" style="height:55px;width:75px; margin-top:1170px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_water" style="height:55px;width:75px; margin-top:1170px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_void" style="height:55px;width:75px; margin-top:1170px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_light_water_void" style="height:55px;width:75px; margin-top:1170px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1173px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1173px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:1173px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:1237px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_void" style="height:55px;width:75px; margin-top:1260px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_ice" style="height:55px;width:75px; margin-top:1260px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_earth" style="height:55px;width:75px; margin-top:1260px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_void_ice_earth" style="height:55px;width:75px; margin-top:1260px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1263px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1263px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:1263px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:1327px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_void" style="height:55px;width:75px; margin-top:1350px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_fire" style="height:55px;width:75px; margin-top:1350px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_shadow" style="height:55px;width:75px; margin-top:1350px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_void_fire_shadow" style="height:55px;width:75px; margin-top:1350px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1353px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1353px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:1353px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:1417px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_energy" style="height:55px;width:75px; margin-top:1440px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_light" style="height:55px;width:75px; margin-top:1440px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_air" style="height:55px;width:75px; margin-top:1440px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_energy_light_air" style="height:55px;width:75px; margin-top:1440px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1443px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1443px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:1443px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:1507px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_light" style="height:55px;width:75px; margin-top:1530px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_life" style="height:55px;width:75px; margin-top:1530px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_ice" style="height:55px;width:75px; margin-top:1530px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_light_life_ice" style="height:55px;width:75px; margin-top:1530px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1533px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1533px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:1533px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:1597px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_energy" style="height:55px;width:75px; margin-top:1620px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_life" style="height:55px;width:75px; margin-top:1620px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_fire" style="height:55px;width:75px; margin-top:1620px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_energy_life_fire" style="height:55px;width:75px; margin-top:1620px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1623px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1623px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:1623px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:1687px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_ice" style="height:55px;width:75px; margin-top:1710px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_air" style="height:55px;width:75px; margin-top:1710px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_water" style="height:55px;width:75px; margin-top:1710px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_ice_air_water" style="height:55px;width:75px; margin-top:1710px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1713px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1713px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:1713px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:1777px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_void" style="height:55px;width:75px; margin-top:1800px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_air" style="height:55px;width:75px; margin-top:1800px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_water" style="height:55px;width:75px; margin-top:1800px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_air_void_water" style="height:55px;width:75px; margin-top:1800px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1803px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1803px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:1803px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:1867px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_shadow" style="height:55px;width:75px; margin-top:1890px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_void" style="height:55px;width:75px; margin-top:1890px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_water" style="height:55px;width:75px; margin-top:1890px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_void_shadow_water" style="height:55px;width:75px; margin-top:1890px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1893px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1893px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:1893px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:1957px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_light" style="height:55px;width:75px; margin-top:1980px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_shadow" style="height:55px;width:75px; margin-top:1980px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_energy" style="height:55px;width:75px; margin-top:1980px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_shadow_energy_light" style="height:55px;width:75px; margin-top:1980px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1983px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:1983px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:1983px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:2047px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_fire" style="height:55px;width:75px; margin-top:2070px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_air" style="height:55px;width:75px; margin-top:2070px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_light" style="height:55px;width:75px; margin-top:2070px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_air_fire_light" style="height:55px;width:75px; margin-top:2070px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2073px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2073px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:2073px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:2137px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_ice" style="height:55px;width:75px; margin-top:2160px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_fire" style="height:55px;width:75px; margin-top:2160px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_water" style="height:55px;width:75px; margin-top:2160px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_water_ice_fire" style="height:55px;width:75px; margin-top:2160px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2163px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2163px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:2163px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:2227px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_ice" style="height:55px;width:75px; margin-top:2250px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_earth" style="height:55px;width:75px; margin-top:2250px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_fire" style="height:55px;width:75px; margin-top:2250px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_ice_fire_earth" style="height:55px;width:75px; margin-top:2250px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2253px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2253px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:2253px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:2317px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_earth" style="height:55px;width:75px; margin-top:2340px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_air" style="height:55px;width:75px; margin-top:2340px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_energy" style="height:55px;width:75px; margin-top:2340px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_air_earth_energy" style="height:55px;width:75px; margin-top:2340px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2343px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2343px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:2343px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:2407px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_void" style="height:55px;width:75px; margin-top:2430px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_light" style="height:55px;width:75px; margin-top:2430px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_life" style="height:55px;width:75px; margin-top:2430px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_void_light_life" style="height:55px;width:75px; margin-top:2430px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2433px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2433px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:2433px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:2497px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_earth" style="height:55px;width:75px; margin-top:2520px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_shadow" style="height:55px;width:75px; margin-top:2520px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_life" style="height:55px;width:75px; margin-top:2520px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_earth_shadow_life" style="height:55px;width:75px; margin-top:2520px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2523px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2523px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:2523px; margin-left:362px;"/>
+			<Image src="file://{images}/custom_game/game_info/pol.png" style="height:10px;width:520px; margin-top:2587px; margin-left:-13px;"/>
+            
+			<DOTAItemImage  itemname="item_ice" style="height:55px;width:75px; margin-top:2610px; margin-left:0px;"/>
+			<DOTAItemImage  itemname="item_life" style="height:55px;width:75px; margin-top:2610px; margin-left:140px;"/>
+			<DOTAItemImage  itemname="item_energy" style="height:55px;width:75px; margin-top:2610px; margin-left:280px;"/>
+			<DOTAItemImage  itemname="item_ice_life_energy" style="height:55px;width:75px; margin-top:2610px; margin-left:420px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2613px; margin-left:82px;"/>
+			<Image src="file://{images}/custom_game/game_info/pls.png" style="height:50px;width:50px; margin-top:2613px; margin-left:222px;"/>
+			<Image src="file://{images}/custom_game/game_info/str.png" style="height:50px;width:50px; margin-top:2613px; margin-left:362px;"/>
+		</Panel>
+	</Panel>
+</root>
+

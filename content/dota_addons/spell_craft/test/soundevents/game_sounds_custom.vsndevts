@@ -1,0 +1,40 @@
+"Custom.Coin"
+{
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"reference_operator"
+			{
+				"operator"		"sos_reference_stack"
+				"reference_stack"		"dota_src1_3d"
+				"operator_variables"
+				{
+					"vsnd_files"
+					{
+						"value"
+						{
+							"value0"		"sounds/ui/coins.vsnd"
+						}
+					}
+					"volume"
+					{
+						"value" "12.000000"
+					}
+					"pitch"
+					{
+						"value" "1.000000"
+					}
+					"soundlevel"
+					{
+						"value" "75.000000"
+					}
+					"limiter_on"
+					{
+						"value"		"0.000000"
+					}
+				}
+			}
+		}
+	}
+}

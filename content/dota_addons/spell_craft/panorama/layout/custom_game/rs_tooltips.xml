@@ -1,0 +1,32 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/rs_tooltips.css" />
+	</styles>
+	<scripts>
+    	<include src="file://{resources}/scripts/custom_game/rs_tooltips.js" /> 
+  	</scripts>
+  	<Panel class="questtooltips" ontooltiploaded="setupTooltip()">
+  		<Panel id="toolpanel" class="questmain">
+		  	<Label hittest="false" html="true" id="itemname" text="-"/>
+		  	<Label hittest="false" html="true" id="itemrare" text="-"/>
+  			<Panel id="itemqual" class="questmain">
+			  	<Label hittest="false" html="true" id="itemquallbl" text="#rsqual"/>
+                <Image id="nostar1" src="file://{images}/custom_game/all/nostar.png" style="height:20px;width:20px;" />
+                <Image id="nostar2" src="file://{images}/custom_game/all/nostar.png" style="height:20px;width:20px;" />
+                <Image id="nostar3" src="file://{images}/custom_game/all/nostar.png" style="height:20px;width:20px;" />
+                <Image id="nostar4" src="file://{images}/custom_game/all/nostar.png" style="height:20px;width:20px;" />
+                <Image id="nostar5" src="file://{images}/custom_game/all/nostar.png" style="height:20px;width:20px;" />
+                <Image id="star1" src="file://{images}/custom_game/all/star.png" style="height:20px;width:20px; margin-left:-100px;" />
+                <Image id="star2" src="file://{images}/custom_game/all/star.png" style="height:20px;width:20px;" />
+                <Image id="star3" src="file://{images}/custom_game/all/star.png" style="height:20px;width:20px;" />
+                <Image id="star4" src="file://{images}/custom_game/all/star.png" style="height:20px;width:20px;" />
+                <Image id="star5" src="file://{images}/custom_game/all/star.png" style="height:20px;width:20px;" />
+			</Panel>
+		  	<Label hittest="false" html="true" id="itemstat1" text="-"/>
+		  	<Label hittest="false" html="true" id="itemstat2" text="-"/>
+		  	<Label hittest="false" html="true" id="itemdiscr" text="-" style="width:250px;"/>
+		  	<Label hittest="false" html="true" id="iteminslot" text="#insl"/>
+  		</Panel>
+  	</Panel>
+</root>

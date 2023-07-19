@@ -1,0 +1,790 @@
+18.01.2021
+General: 
+
+	Added a lot of descriptions of effects and auras
+	Added Level 3 item creation using essences
+	Added something else on little things that I can't remember
+
+------------------------------------------------------------------------------------------------------
+Waves:
+	
+	Due to the amplification of some items - some waves are amplified
+
+------------------------------------------------------------------------------------------------------
+Heroes and abilities:
+
+	Drow Ranger:
+		Base Agility increased by 5
+		Agility Gain reduced from 2.4 to 2.1
+		Quelling Shot:
+			Now shoots within her attack radius, not within 700 as it was before
+			Deals damage to magic-immune units
+			Damage reduced by 5%
+			Number of arrows increased by 1
+
+	Medusa:
+		Split Shot:
+			Changed damage from 30/40/50/60/70/80/90% to 32/40/48/56/64/72/80%
+
+	WindRanger:
+		Talent at level 20 changed from "+ 16% damage to Focus Fire" to " +300 health"
+		Talent at level 25 changed from "-25% cooldown reduction" to " -20% cooldown reduction"
+
+	Vengeful Spirit:
+		Nether Swap:
+			Added cooldown: 60/60/50/50/40/40/30 seconds (KEKL)
+			Cast range increased from 700/790/880/970/1060/1150/1240 to 700/800/900/1000/1100/1200/1300
+
+------------------------------------------------------------------------------------------------------
+Items:
+	
+//Items
+	Aluneth:
+		Increased cast range from 250 to 350
+	
+//Upgraded Items
+	Upgraded Heart:
+		Removed Health Regeneration Amplification
+		Increased health regeneration from 0.5% to 2%
+
+	Upgraded Satanic:
+		Additional damage increased from 50 to 60
+		Bonus lifesteal on activation increased from 175% to 200%
+		Active bonus duration increased from 5 to 6 seconds
+
+	Upgraded Pipe of Insight:
+		Removed bonus attributes
+		Additional Magic Resistance increased from 30% to 35%
+		Additional Health Regeneration increased from 2 to 4
+		Barrier radius is increased from 900 to 1200
+		Aura radius increased from 900 to 1200
+	
+//Elements Items
+	Spear of Life:
+		Cooldown applies to all levels of the Spear of Life
+		Health recovery on activation increased from 200/500/1000 to 400/800/1400
+
+	Stone of Void:
+		Aura Evasion reduced from 15/20/25% to 5/10/15%
+
+	Mystery Stone:
+		Additional range increased from 100/150/200 to 100/175/250
+
+	Urn of Life:
+		Cooldown reduced from 30 to 25/23/20 seconds
+		Healing every 0.5 seconds, not once per second, as it was before
+
+	Water Stone:
+		Increase Intelligence from Aura changed from 5/10/25 to 5/10/20
+		Increase Agility from Aura changed from 5/10/25 to 5/10/20
+
+//Upgraded Elements Items
+	Demonic Sword:
+		Additional damage reduced from 135 to 120
+		Additional Armor increased from 15 to 17
+		Additional Health increased from 500 to 700
+		Burn radius increased from 700 to 800
+		Burn Aura Damage increased from 60 to 80
+		Burn Aura miss chance increased from 17% to 20%
+		Burn effect duration from attacks increased from 1 to 2 seconds
+
+	Life Treads:
+		Added activation sound
+		Additional Armor increased from 10 to 16
+		Health recovery on activation increased from 1500 to 1750
+		Additional movement speed changed from 20% to 50
+
+	Fire Desolator:
+		Corruption effect duration reduced from 15 to 6 seconds
+
+	Water Butterfly:
+		Removed additional movement speed
+		When activated, Boost Water Butterfly will no longer slow down heroes if their movement speed was greater than 550
+
+	Energy Sphere:
+		Mana Regeneration changed from 5 to 3%
+		Removed additional damage
+
+	Water Carapace:
+		Additional damage increased from 22 to 28
+		Removed additional intelligence
+
+	Energy Core:
+		Additional Intelligence reduced from 25 to 15
+		Additional Mana increased from 1000 to 1350
+		Cooldown reduction reduced from 35% to 25%
+		Spell lifesteal reduced from 25% (for heroes) and 30% (for creeps) to 13%
+		Added an aura that will reduce the cooldown of all allies by 12.5% within a radius of 300
+
+	Unhallowed Icon:
+		Additional damage increased from 45 to 55
+		Additional Health reduced from 500 to 400
+		Additional Health Regeneration reduced from 15 to 11
+		Fixed a bug in the description: bonus when activating 180% vampirism
+
+	Heart Of Light:
+		Removed Health Regeneration Amplification
+		Added additional health 250
+		Aura Health reduced from 650 to 600
+		Increased health regeneration from 1% to 1.8%
+
+	Earth Cuirass:
+		Additional Attack speed increased from 30 to 40
+		Additional Armor increased from 10 to 12
+		Aura Radius increased from 900 to 975
+		Attack speed from Aura to allies reduced from 55 to 50
+		Armor from Aura to allies reduced from 15 to 14
+
+	Staff Of Dragon:
+		Added an additional attack range (for ranged heroes) for 200
+		Additional Agility increased from 42 to 44
+
+	Fire Core:
+		Additional Mana increased from 500 to 800
+		Cooldown reduction reduced from 25% to 18%
+
+	Void Shield:
+		Added activation sound
+		Added an additional 30% evasion
+		Additional movement speed changed from 8% to 20
+		Aura Health Regeneration increased from 9 to 12
+		Aura Evasion reduced from 30% to 15%
+		Movement speed when used on allies increased from 10% to 12%
+		Attack speed when used on allies increased from 80 to 100
+		Movement speed when used on enemies increased from -10% to -5%
+		Attack speed when used on enemies increased from -80 to -50
+
+	Skadi Bow:
+		Added a Health Restoration Reduction 40% 
+
+	Monkey King Bow:
+		Additional damage reduced from 55 to 40
+		Additional Attack speed increased from 15 to 35
+		Aura Health reduced from 500 to 400
+		Aura Armor reduced from 14 to 12
+
+	Mystery Scepter of Divinity:
+		Increased cast range from 200 to 300
+
+	Kingsbane:
+		Additional strength reduced from 50 to 47
+		Additional Mana Regeneration increased from 1.5 to 2.25
+
+	Vampire Robe:
+		Added additional damage for 35
+		Added additional health regeneration for 5
+		Aura Damage changed from 50 to 18%
+		Health Regeneration reduced from 15 to 10
+
+	The Caustic Finale:
+		Additional Health Regeneration reduced from 15 to 12
+
+	Hammer Of God:
+		Additional damage reduced from 35 to 24
+		Additional Attack Speed reduced from 90 to 65
+		Aura Health reduced from 350 to 200
+		Aura Damage reduced from 40 to 30
+		Aura movement speed reduced from 35 to 20
+
+	Ice Aluneth:
+		Increased cast range from 250 to 500
+	
+//Legendary Items
+	Staff Of Water:
+		Added an additional attack range (for ranged heroes) for 200
+		Additional Agility increased from 98 to 100
+
+	Shadow Cuirass:
+		Additional damage increased from 72 to 78
+		Additional Intelligence reduced from 20 to 10
+
+	Ice Staff:
+		Increased cast range from 250 to 500
+	
+------------------------------------------------------------------------------------------------------
+Neutral Items:
+
+	Tier1:
+		Removed: Iron Talon, Mango Tree, Keen Optic, Ocean Heart, Trusty Shovel, Arcane Ring
+
+	Tier2:
+		Removed: Clumsy Net
+
+	Tier3:
+		Removed: Greater Faerie Fire, Enchanted Quiver, Mind Breaker
+		Added: Magic Lamp
+
+	Tier4:
+		Removed: Princes Knife, Telescope, The Leveller
+
+	Tier5:
+		Removed: Seer Stone, Mirror Shield, Ballista, Book of the Dead
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+NEW:
+Heroes and abilities:
+
+	Luna:
+		Redesigned Lunar Blessing mechanics:
+			Increases the main attribute in aura 5/7/9/11/14/17/20%
+			Aura Radius: 850
+			The ability is pumped 1 time in 4 levels
+
+	WindRanger
+		Changed Focus Fire, now the ability is non-directional and when killing a target, it does not end
+		Focus Fire:
+			Duration reduced from 20 to 15 seconds
+			Attack speed changed from 450 to 150/200/250/300/350/400/450
+			Cooldown increased from 55/50/45/40/35/30/25 to 70 seconds
+			Added Aghanim's Scepter effect: reduces cooldown to 30 seconds, increases damage by 15%
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Items
+	Hand of Midas:
+		Added Hand of Midas:
+			Created from Gloves of Haste + Recipe (450 + 1750)
+			Gives +40 attack speed
+			Active: Gold Rush: When activated on an enemy without killing it, it gives 160 gold
+			Cast Range: 600
+			Cooldown: 70 seconds
+		Cooldown does not decrease when it is lowered
+	
+	Tome of Aghanim:
+		Added Tome of Aghanim:
+			Cost 500 gold
+			Starts selling from the 5th minute of the game
+			Using it, you can get the effect of Aghanim's Scepter for 2 minutes
+			Cast Range: 250
+
+//Upgraded Elements Items
+	Life Vessel:
+		Added activation sound
+		Completely redesigned the mechanics of Life Vessel:
+			Renamed to Vessel Of The Souls
+			Gives +800 Health, +12 Health Regeneration, +5 Mana Regeneration, +30 Movement Speed, +2 Armor and +2 All Attributes
+			Activated ability Soul Suffering/Blessing affects both enemies and allies
+			Suffering: Deals 200 damage to an enemy every 0.5 seconds, reducing their regeneration by 60% and magic resistance by 20%
+			Blessing: Blesses an ally by increasing their regeneration by 200, increasing their health recovery by 50% and increasing their resistance to any damage by 15%
+			Duration: 8 seconds
+			Cast Range: 1000
+			Cooldown: 15 seconds
+		Cooldown does not decrease when it is lowered
+
+	Cuirass Of Life:
+		Added sounds and effects
+		Completely redesigned the mechanics of the Cuirass Of Life:
+			Renamed to Avernus Armor
+			Gives +1250 Health, +15 Health Regeneration, +8 Armor and +2 All Attributes
+			Active: Self-sacrifice: for 3.5 seconds, take 40% of the damage received by allies
+			Radius: 900
+			Dispel Type: Strong Dispel
+			Cooldown: 45 seconds
+			Passive: Blocks 100 damage
+		Can be used while under the effects of stun
+
+------------------------------------------------------------------------------------------------------
+Neutral Items:
+
+	Elven Tunic:
+		Tier3
+		Gives +16% Evasion, +8% Movement Speed and +26 Attack Speed
+
+	Stormcrafter:
+		Tier4
+		Gives +4 Mana Regeneration
+		Active: Cyclones your hero for 0.75 seconds
+		Dispel Type: Basic Dispel
+		Cooldown: 25 seconds
+		Passive: Zaps an enemy within 700 range, dealing 200 damage and a 40% slow for 0.3 seconds
+		Strikes every 3 seconds
+		Strike Recharge Time is not reduced by reducing the cooldown
+
+	Book of Shadows:
+		Tier5
+		Gives +12 All Attributes and +400 Night Vision
+		Active: Shadow: Causes the target to become untargetable but also silenced, muted and disarmed for 3 seconds (but it can still take damage)
+		Dispel Type: Basic Dispel
+		Cooldown: 15 seconds
+		Can be cast on, but cannot place the modifier on spell immune allies
+
+======================================================================================================
+======================================================================================================
+20.01.2021
+General:
+	
+	Changed / added some descriptions
+
+------------------------------------------------------------------------------------------------------
+Heroes and abilities:
+
+	Shadow Demon:
+		Removed talent at level 20 "-5s Soul Catcher Cooldown"
+		Swapped talents "+400 Demonic Purge Damage" and "-1.25s Shadow Poison Cooldown"
+		Talent at level 25 "+400 Cast Range" moved to level 20
+		Added talent at level 25 "+80 Health Regeneration"
+		Soul Catcher:
+			The ability is now stackable, not refreshable as it was previously
+			Percentage of health returned increased from 50% to 75%
+			Cooldown changed from 22/21/20/19/18/17/16 to 22/21/20/18/16/14/12 (due to lack of talent)
+
+	Omniknight:
+		Guardian Angels:
+			Aghanim Scepter: Increased health regeneration from 40 to 160
+
+	Slardar:
+		Guardian Sprint:
+			Aghanim Scepter: Increased health regeneration from 25 to 50 and armor from 12 to 25
+
+	Night Stalker:
+		Darkness:
+			Changed the cooldown from 180/160/140/120/100/80/60 to 160/150/140/130/120/110/90 (this was done due to the fact that the talent removed the cooldown)
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Items
+	Tome of Aghanim:
+		Purchase time increased by 11 seconds
+
+//Elements Items
+	Urn of Life:
+		Added activation sound
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+NEW:
+Neutral Items:
+
+	Ceremonial Robe:
+		Tier4
+		Gives +350 mana
+		Lowers enemy Status Resistance by 25% and Magic Resistance by 25%
+		Radius: 1200
+
+======================================================================================================
+======================================================================================================
+21.01.2021
+Heroes and abilities:
+
+	Sven:
+		Warcry:
+			Mana cost increased from 25 to 30/40/50/60/70/80/90
+
+	Shadow Fiend:
+		Shadowraze:
+			Stack bonus damage changed from 60 to 40/40/50/50/60/60/70
+
+	Winter Wyvern
+		Cold Embrace:
+			Base healing increased from 25 to 25/30/35/40/45/50/55
+
+	Sniper:
+		Assassinate:
+			Damage type changed from magic to pure
+			Cast time without Aghanim's Scepter increased from 2 to 2.5 seconds
+			Cast time with Aghanim's Scepter reduced from 1 to 0.5 seconds
+			Stun duration with Aghanim's Scepter reduced from 1.8 to 0.5 seconds
+
+	Slardar:
+		Sprint:
+			Increased mana cost by 25
+			Reduced Aghanim Scepter bonus armor from 25 to 17
+			
+	Shadow Demon:
+		Demonic Purge:
+			Charge cooldown with Aghanim's Scepter reduced from 60 to 40 seconds
+
+	Troll Warlord:
+		Fervor:
+			The number of stacks increased from 4 to 6
+			
+	Troll Warlord:
+		Battle Trance:
+			Cooldown increased from 35 to 50 seconds
+
+	Razor:
+		Static Link:
+			Cooldown reduced from 60 to 60/58/56/54/52/50/48
+			Added missing value at level 7
+			Increased buffer range from 250 to 250/265/280/295/310/325/340
+
+	Spirit Breaker:
+		Charge of Darkness:
+			Cast time reduced from 0.47 to 0.3
+
+	Mirana:
+		Sacred Arrow:
+			Cooldown rescaled from 26/24/22/20/18/16/14 to 20/19/18/17/16/15/14
+			Flight speed increased from 950 to 1000
+			Maximum bonus damage changed from 140 to 80/160/240/320/400/480/540
+		Mirana Starfall:
+			Cast time reduced from 0.5 to 0.4
+
+	Naga Siren:
+		Ensnare:
+			Cooldown changed from 14/12/10/8/6/4/2 to 14/13/12/11/10/8/6
+		Rip Tide:
+			Changed armor reduction from -1/-2/-3/-4/-5/-6/-7 to -1/-2/-3/-4/-5/-6/-8
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Upgraded Elements Items
+	Energy Core:
+		Added +250 Cast Range
+
+	Fire Core:
+		Added +250 Cast Range
+
+	Ice Dagon:
+		Spell Lifesteal now works correctly
+
+	Shiva's Shield:
+		Spell Lifesteal now works correctly
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+NEW:
+Heroes and abilities:
+
+	Aghanim's Scepter upgrade (from Basic Dota) added for: Antimage Blink Fragment
+		
+	Aghanim's Shard upgrade (from Basic Dota) added for: Dazzle Weave (Bad Juju), Broodmother Silken Bola, Tusk Frozen Sigil, Sniper Concussive Grenade, Phantom Assassin Fan of Knives, Pangolier Roll Up, Omniknight Hammer of Purity, Ogre Magi Fire Shield, Lich Ice Spire, Kunkka Tidal Wave, Jakiro Liquid Ice, Dragon Knight Fireball, Bristleback Hairball, Rattletrap Jetpack
+
+	WindRanger:
+		Changed Focus Fire, instead of additional attack speed, it now reduces it, but releases an additional arrow when attacking
+		Focus Fire:
+			Attack Speed changed from 150/200/250/300/350/400/450 to -50/-75/-100/-125/-150/-175/-200
+			Added +1 arrow when attacking
+
+======================================================================================================
+======================================================================================================
+22.01.2021
+Heroes and abilities:
+
+	WindRanger:
+		Focus Fire:
+			Attack speed reduced from -50/-75/-100/-125/-150/-175/-200 to -100/-150/-200/-250/-300/-350/-400
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Elements Items
+	Urn of Life:
+		Changed healing effect
+		
+//Upgraded Elements Items
+	Life Treads
+		Added health/mana recovery numbers when used
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+NEW:
+Heroes and abilities:
+
+	Axe:
+		Blood Madness:
+			Added Aghanim's Scepter upgrade:
+				Increases damage calculation time by 1 second
+
+	Clinkz:
+		Demonic Flame:
+			Renamed to Infernal Breath
+				Instead of bonus damage, it now gives basic damage
+				Aghanim's Scepter Effect: Grants attacks +25% magic damage (enhanced by increasing spell damage)
+
+======================================================================================================
+======================================================================================================
+23.01.2021
+Waves:
+
+	Bosses now dispel the effect of Smoke of Deceit (and Ninja Gear) due to a bug in the wave with Void
+
+------------------------------------------------------------------------------------------------------
+Heroes and abilities:
+
+	Winter Wyvern:
+		Winter Curse:
+			Renamed to Wyvern's Blast
+
+	Drow Ranger:
+		Talant changed from "+50% Gust Blind" to "-6s Multishot Cooldown"
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Items
+	Aghanim's Synth:
+		Now, when using it, the previous commands are not interrupted
+
+	Urn of Shadows/Spirit Vessel
+		Added 99999 initial charges
+
+//Upgraded Elements Items
+	Avernus Armor:
+		Renamed to Avernus Chestplate
+
+//Legendary Items
+	Staff Of Water:
+		Updated the effect when using
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+NEW:
+Items:
+
+//Items
+	Aegis of the Immortal:
+		It works like a normal Aegis, but when you die, it does not disappear and you can put it in a backpack
+		Recipe: х2 Earth Essence, x2 Fire Essence, x2 Life Essence
+		Respawn Time: 6 seconds
+		Cooldown times: 90 seconds
+	(If you die as a team during the resurrection from the Aegis, you will still lose)
+
+======================================================================================================
+======================================================================================================
+24.01.2021
+General:
+
+	Changed the descriptions of the effects per wave for Seal
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Items
+	Hand of Midas:
+		Cooldown reduced from 70 to 60 seconds
+
+	Aegis of the Immortal:
+		Changed the sounds, effects and icon
+		Added to the store for search
+
+	Ambient Sorcery:
+		Effect power reduced from 1 to 0.75 seconds
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+NEW:
+Items:
+
+//Upgraded Items
+	Upgraded Octarine Core
+		Recipe: Octarine Core, Void Essence, Spell Prism
+		Passive: Reduces the cooldown of all items and abilities by 40%
+
+======================================================================================================
+======================================================================================================
+25.01.2021
+Waves:
+
+	All bosses have reduced magic resistance by 8% (Ancient Wizard (45 wave) - 18%)
+	In Hard mode, added Titan Chunk to all bosses: +10 to armor, +16% to magic resistance and +20% to effects resistance
+	
+	Ravenous Bear (11 wave):
+		Passive ability "Fury Swipes" can be disabled
+
+	Phoenix (20 wave):
+		Added Refresher Orb for Hard mode
+
+	Luna (44 wave):
+		In Hard mode, added Crystalys
+
+------------------------------------------------------------------------------------------------------
+Heroes and abilities:
+
+	Shadow Demon:
+		Soul Catcher:
+			Duration is not reduced by Status Resistance
+
+	Lich:
+		Ice Spire:
+			Cooldown increased from 25 to 50 seconds
+			Duration increased from 15 to 20 seconds
+		Sinister Gaze:
+			Duration reduced from 1.6/1.9/2.2/2.5/2.8/3.1/3.4 to 0.6/0.9/1.2/1.5/1.8/2.1/2.4
+			Cooldown increased from 10/9/8/7/6/5/4 to 20/18/16/14/12/10/8
+			Can now be used on bosses
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Items
+	Abyssal Blade:
+		Overwhelm Stun duration reduced from 2 to 1 seconds
+		Bash Stun duration reduced from 1.5 to 0.5 seconds
+		Can now be used on bosses
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+NEW:
+Waves:
+
+	Necrolyte (43 wave):
+		Added a new enemy: Rotund'jere, which has a Demonic Sword, increased by 5000 health, 500 health regeneration, 10 magic resistance and an additional Death Pulse ability with a 6-second cooldown
+		Attack Range: 700
+
+======================================================================================================
+======================================================================================================
+26.01.2021
+Waves:
+
+	Phoenix (20 wave):
+		Supernova is not used at the moment of death, but when 1500 health remains
+
+------------------------------------------------------------------------------------------------------
+Heroes and abilities:
+
+	Luna:
+		Changed talent at level 25 from "+0.2s Eclipse Lucent Ministun" to "+40 Agility"
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Upgraded Elements Items
+	Demonic Sword:
+		Damage frequency increased by 5x (total damage has not changed)
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+NEW:
+Waves:
+
+	Bloodseeker (23 wave):
+		Added active ability: After 1.6 seconds, it casts fear on everyone within a radius of 1200
+		In Hard mode, added Maelstrom
+		In Hard mode, added passive ability: Causes fear for 0.5 seconds when attacking, increases attack speed and movement speed. Allows you to pass through creatures.
+			Rupture:
+				Cast time increased by х2
+				In Hard mode, Damage increased by x2
+
+======================================================================================================
+======================================================================================================
+27.01.2021
+General:
+
+	Removed changes/additions: Slardar Guardian Sprint Scepter, Aegis of the Immortal, Abyssal Blade, Ambient Sorcery, Demonic Sword
+
+------------------------------------------------------------------------------------------------------
+Heroes and abilities:
+
+	Lich:
+		Sinister Gaze:
+			Duration changed from 0.6/0.9/1.2/1.5/1.8/2.1/2.4 to 0.6/0.8/1/1.2/1.4/1.6/1.8/2
+			Cooldown changed from 20/18/16/14/12/10/8 to 20
+
+	Shadow Fiend:
+		Requiem of Souls:
+			Debuff Duration per Line reduced from 2 to 1 seconds
+			Max Debuff Duration reduced from 5 to 2 seconds
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Items
+	Spirit Vessel:
+		Damage reduced from 0.5% to 0.2%
+
+======================================================================================================
+======================================================================================================
+28.01.2021
+Waves:
+
+	Warrior of Pain (28 wave):
+		The number of enemies is reduced from 10 to 7 (5 normal and 2 new)
+		Added a new enemy Huskar: in Normal mode, no different from the rest; in Hard mode, added a passive ability: before dying, uses Shallow Grave for 3 seconds, increasing its attack speed and dealing 100 pure damage with each hit attack. After finishing Shallow Grave uses False Promise for 3 seconds, increasing its attack speed and dealing 100 pure damage with each hit attack. After the end... he's dying
+
+	Rotund'jere (43 wave):
+		In Hard mode, an active ability is added: for 2 seconds, it applies a ghost form, disarming itself, making it invulnerable to physical attacks, increasing health regeneration by 50% and regenerating 2% health per second, but at the same time reducing magic resistance by 50%. Starts applying when health drops below 50%
+		Cooldown: 8 seconds
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Upgraded Elements Items
+	Vessel of the Souls:
+		Added a debuff icon
+
+======================================================================================================
+======================================================================================================
+29.01.2021
+Waves:
+
+	Bloodseeker (24 wave)
+		Blood Fiesta:
+			Cast time reduced from 1.6 to 1
+
+	Titan Chunk:
+		Bonus Armor reduced by 3
+
+------------------------------------------------------------------------------------------------------
+Heroes and abilities:
+
+	WindRanger:
+		Focus Fire:
+			Outgoing damage changed from 70/75/80/85/90/95/100 to 55/60/65/70/80/90/100
+			Scepter outgoing damage changed from 85/90/95/100/105/110/115 to 70/80/90/100/105/110/120
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Elements Items
+	Life Shield:
+		Damage block increased from 5/20/50 to 15/30/65
+
+======================================================================================================
+======================================================================================================
+30.01.2021
+Waves:
+
+	Phoenix (20 wave)
+		Supernova cast threshold reduced from 1500 to 500
+		Ice Blast can no longer be applied to Phoenix in Supernova
+
+	Bloodseeker (24 wave)
+		Enhanced: Has 15000 Health, 20 Armor and 35% Magic Resistance
+
+	Necrolyte (43 wave):
+		Added a second Rotund'jere
+		In Hard mode, added Fire Core
+
+	Titan Chunk:
+		10 armor again
+		Magic Resistance increased from 16% to 20%
+		Status Resistance increased from 20% to 25%
+
+------------------------------------------------------------------------------------------------------
+Heroes and abilities:
+
+	Ancient Apparition:
+		Ice Blast:
+			Duration reduced from 8/9/10/11/12/13/14 to 5/5/6/6/7/7/9
+			Duration with Aghanim's Scepter reduced from 17 to 12
+
+	Witch Doctor:
+		Voodoo Restoration:
+			Healing increased from 16/24/32/40/48/56/64 to 20/35/50/65/80/95/110
+		Maledict:
+			Cooldown increased from 22 to 54/50/46/42/38/34/30 seconds
+			Duration reduced from 8 to 7 seconds
+			Burst Damage from lost health reduced from 8/11/14/17/20/23/26 to 8/10/12/14/16/18/20
+			Burst Damage from lost health is not increased by spell amplification
+
+	Viper:
+		Poison Attack:
+			Magic Resistance Reduction reduced from 3/4/5/6/7/8/9% to 1/2/3/4/5/6/7%
+
+------------------------------------------------------------------------------------------------------
+Items:
+
+//Items
+	Hand of Midas:
+		Now you can use 34 waves on mobs
+
+//Upgraded Elements Items
+	Vessel of the Souls:
+		Health Regeneration from Blessing increased from 200 to 250
+		Health Regeneration Amplification from Blessing reduced from 50% to 25%
+		Added basic dispelling when applied

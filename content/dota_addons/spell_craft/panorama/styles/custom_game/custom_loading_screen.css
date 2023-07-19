@@ -1,0 +1,175 @@
+@define TotalLength: 30s;
+@define TimingFunc: linear;
+@define IterationCount: 1;
+
+.OverthrowLoadingRoot
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: clip;
+}
+
+#GameModeDescription
+{
+    font-size: 27px;
+	text-transform: uppercase;
+	color: #cccccc;
+}
+
+#GameModeHints
+{
+	margin: 10px;
+	font-size: 18px;
+	color: #8f9092;
+}
+
+#GameModeImage
+{
+	horizontal-align: center;
+	width: 200px;
+	height: 150px;
+
+	box-shadow: inset black 5px 5px 10px 10px;
+}
+
+#TitlePanel
+{
+	horizontal-align: left;
+	vertical-align: bottom;
+	margin-bottom: 150px;
+	margin-left: 100px;
+	flow-children: right;
+}
+
+#OverthrowIcon
+{
+	width: 80px;
+	height: 80px;
+	vertical-align: center;
+	margin-right: 15px;
+}
+
+#OverthrowTitle
+{
+	margin-bottom: 25px;
+    text-shadow :1px 1px 10px 5.0 #DC143C;
+	text-transform: uppercase;
+	vertical-align: center;
+    font-size:80px;
+    color:#EEEE00;
+    font-family:Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+}
+
+.SeqImg
+{
+	background-repeat: no-repeat;
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+.SeqBg
+{
+	background-repeat: no-repeat;
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+#seq
+{
+    overflow: clip;
+	pre-transform-scale2d: 1, 1;
+}
+
+@keyframes 'x' {}
+
+#seq_bg
+{
+    //margin-left: 0px;
+    //margin-top: 0px;
+}
+
+#seq_beastmaster_pets
+{
+	margin-left: 735px;
+	margin-top: 210px;
+}
+
+#seq_invok
+{
+	width: 833px;
+	height: 1080px;
+	margin-top: -20px;
+	animation-name: seq_invok_anim;
+	animation-duration: TotalLength;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes 'seq_invok_anim'
+{
+	0%
+	{
+		transform: translateX( 0px ) translateY( 0px );
+	}
+
+	50%
+	{
+		transform: translateX( 0px ) translateY( 40px );
+	}
+    
+	100%
+	{
+		transform: translateX( 0px ) translateY( 0px );
+	}
+}
+
+#seq_elems
+{
+	width: 1080px;
+	height: 1080px;
+	animation-name: seq_elems_anim;
+	animation-duration: 75s;
+	animation-timing-function: TimingFunc;
+	animation-iteration-count: infinite;
+}
+
+@keyframes 'seq_elems_anim'
+{
+	0%
+	{
+		//transform: rotateZ( 0deg ) rotateX( 0deg ) translate3d( 0px, 0px, 0px );
+	}
+    
+	50%
+	{
+		transform: rotateZ( -180deg ) rotateX( 0deg ) translate3d( 0px, 0px, 0px );
+	}
+
+	100%
+	{
+		transform: rotateZ( -361deg ) rotateX( 0deg ) translate3d( 0px, 0px, 0px );
+	}
+}
+
+#seq_coins
+{
+	margin-left: 900px;
+	margin-top: 500px;
+	animation-name: seq_coins_anim;
+	animation-duration: TotalLength;
+	animation-timing-function: TimingFunc;
+	animation-iteration-count: IterationCount;
+}
+
+@keyframes 'seq_coins_anim'
+{
+	0%
+	{
+		transform: translateX( 0px ) translateY( 0px );
+	}
+
+	100%
+	{
+	}
+}

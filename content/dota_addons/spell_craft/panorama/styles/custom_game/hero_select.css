@@ -1,0 +1,12 @@
+#PatreonHeroes
+{
+    horizontal-align: center;
+	vertical-align: center;
+}
+
+#Hero
+{
+    width: 64px;
+    height: 64px;
+    background-color: #25292f;
+}

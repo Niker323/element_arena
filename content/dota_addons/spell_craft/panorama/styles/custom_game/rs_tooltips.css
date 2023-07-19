@@ -1,0 +1,25 @@
+#toolpanel
+{
+	flow-children: down;
+}
+
+#itemqual
+{
+	flow-children: right;
+}
+
+#itemname
+{
+	font-weight: bold;
+}
+
+#itemdiscr
+{
+	margin-top:5px ;
+}
+
+#iteminslot
+{
+	color:#00FF00;
+	margin-top:5px ;
+}

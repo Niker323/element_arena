@@ -1,0 +1,18 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/rsui.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/rsui.js" />
+	</scripts>
+
+	<Panel hittest="false" class="ParticlesUI">
+		<Panel id="ParticlesUIPanel">
+			<Panel id="Line1" style="margin-bottom:0px;">
+				<DOTAHeroImage id="hero1" class="Heroes" heroname="npc_dota_hero_oracle" heroimagestyle="landscape"  style="height:36px;width:64px; margin-top:4px; margin-left:5px;"/>
+				<Panel id="PanelForPart"/>
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

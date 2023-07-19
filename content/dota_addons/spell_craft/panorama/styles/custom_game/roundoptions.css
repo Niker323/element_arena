@@ -1,0 +1,139 @@
+.RoundOptionsPanel
+{
+    width: 100%;
+    height: 100%;
+    overflow: clip;
+}
+
+#confirmation 
+{
+    horizontal-align: center;
+	vertical-align: top;
+	font-size: 20px;
+    font-weight: bold;
+	margin-top: 110px;
+	color: #00FF00;
+}
+
+#noheader
+{
+margin-top:40px;
+margin-left: 113px;
+horizontal-align:left;
+color: #FFEA00;
+font-size: 20px;
+font-weight: bold;
+}
+
+#yesheader
+{
+margin-top:40px;
+margin-right: 109px;
+horizontal-align:right;
+color: #FFEA00;
+font-size: 20px;
+font-weight: bold;
+}
+
+#noresults
+{
+margin-top:60px;
+margin-left: 100px;
+horizontal-align:left;
+}
+
+#yesresults
+{
+margin-top:60px;
+margin-right: 100px;
+horizontal-align:right;
+}
+
+#RoundOptions
+{
+  horizontal-align: left;
+  margin-left:0px;
+  margin-top:150px;
+  vertical-align: top;
+  width: 500px;
+  height: 150px;
+ }
+ #BG_Image
+{
+  width: 500px;
+  height: 300px;
+ }
+
+ #Vote_Yes
+{
+	horizontal-align: center;
+  vertical-align: top;
+ margin-top: 100px;
+  width: 140px;
+    height: 35px;
+ }
+
+ #Auto_Vote
+{
+	horizontal-align: center;
+  vertical-align: top;
+ margin-top: 105px;
+ margin-left: 300px;
+ }
+ 
+#question
+  {
+    horizontal-align: right;
+	vertical-align: top;
+	margin-right: 85px;
+	font-size: 20px;
+    font-weight: bold;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: #FFEA00;
+ }
+ #readytext
+ {
+	horizontal-align: center;
+	margin-top: 105px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #0000FF;
+ }
+
+ .CreatePanelClass
+ {
+    //transform: translate3d( 0px, 0px, 0px );
+    animation-name: CreatePanel;
+    animation-duration: .42s;
+    animation-iteration-count: 1;
+ }
+ @keyframes 'CreatePanel'
+ {
+     0%
+     {
+        transform: translate3d( -500px, 0px, 0px );
+     }
+     100%
+     {
+        transform: translate3d( 0px, 0px, 0px );
+     }
+ }
+ .OffPanelClass
+ {
+    transform: translate3d( -499px, 0px, 0px );
+    animation-name: OffPanel;
+    animation-duration: .42s;
+    animation-iteration-count: 1;
+ }
+ @keyframes 'OffPanel'
+ {
+     0%
+     {
+        transform: translate3d( 0px, 0px, 0px );
+     }
+     100%
+     {
+        transform: translate3d( -499px, 0px, 0px );
+     }
+ }

@@ -1,0 +1,5 @@
+*.bin
+panorama_debugger.cfg
+settings.kv
+game/dota_addons/element_arena/elements/sessions/session.dmx
+*.autosave
